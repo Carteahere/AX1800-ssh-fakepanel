@@ -3,13 +3,13 @@
 
 ## 一键安装
 ```
-curl -fsSL https://raw.githubusercontent.com/SadYuyuko/AX1800-ssh-fakepanel/main/panel-online | sh
+curl -fsSL https://raw.githubusercontent.com/Carteahere/AX1800-ssh-fakepanel/main/panel-online | sh
 ```
 可选直接安装或安装并加入ssh连接自动展示
 
 ## 手动安装
-1. ssh连接。如果用winscp把[panel](https://raw.githubusercontent.com/SadYuyuko/AX1800-ssh-fakepanel/main/panel)放入`/usr/bin/`则跳到第4步  
-2. 执行`vi /usr/bin/panel`，粘贴[panel](https://raw.githubusercontent.com/SadYuyuko/AX1800-ssh-fakepanel/main/panel)内容
+1. ssh连接。如果用winscp把[panel](https://raw.githubusercontent.com/Carteahere/AX1800-ssh-fakepanel/main/panel)放入`/usr/bin/`则跳到第4步  
+2. 执行`vi /usr/bin/panel`，粘贴[panel](https://raw.githubusercontent.com/Carteahere/AX1800-ssh-fakepanel/main/panel)内容
 3. `ESC`，`:wq`保存退出  
 4. 执行`chmod +x /usr/bin/panel`  
 5. 执行`panel`，效果如图所示  
